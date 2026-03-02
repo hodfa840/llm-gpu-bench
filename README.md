@@ -57,7 +57,7 @@ llm-gpu-bench/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/llm-gpu-bench.git
+git clone https://github.com/hodfa840/llm-gpu-bench.git
 cd llm-gpu-bench
 ```
 
