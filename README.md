@@ -45,9 +45,7 @@ llm-gpu-bench/
 ├── 05_email_results.py        # HTML results email sender
 ├── bench_config.py            # Config loader (reads config.env)
 ├── run_all_benchmarks.sh      # Runs all steps in sequence
-├── config.env.example         # Template for your settings
-└── report/
-    └── main.tex               # LaTeX report (upload to Overleaf)
+└── config.env.example         # Template for your settings
 ```
 
 ---
@@ -194,7 +192,7 @@ A full benchmark was run on this hardware in February 2026. Some highlights:
 | Qwen2.5-32B | BF16 | 19.1 tok/s | 65.6 GB |
 | Qwen2.5-32B | 4-bit | 12.3 tok/s | 19.5 GB |
 
-The full LaTeX report with all tables is in `report/main.tex` and can be compiled on Overleaf.
+The full results are saved as JSON files locally after each run.
 
 ---
 
