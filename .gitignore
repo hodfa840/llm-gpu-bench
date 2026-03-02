@@ -2,9 +2,10 @@
 hf_token
 config.env
 
-# ── Results (machine-specific, can be large) ──────────────────────────────────
+# ── Results and reports (machine-specific) ────────────────────────────────────
 results_*.json
 benchmark_run_*.log
+report/
 
 # ── Python cache ──────────────────────────────────────────────────────────────
 __pycache__/
