@@ -1,0 +1,32 @@
+# ── Credentials (NEVER commit these) ─────────────────────────────────────────
+hf_token
+config.env
+
+# ── Results (machine-specific, can be large) ──────────────────────────────────
+results_*.json
+benchmark_run_*.log
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ── Conda / pip ───────────────────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+.env
+venv/
+
+# ── LaTeX build artefacts ─────────────────────────────────────────────────────
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.pdf
+report/*.synctex.gz
+gpu_benchmark_report.zip
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
